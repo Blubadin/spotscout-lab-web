@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="SpotScout Lab — professional sports scouting, video analysis and performance intelligence for Windows.">
+  <link rel="icon" type="image/png" href="/assets/sp-logo.png">
+  <link rel="preload" as="image" href="/assets/arena-hero.png">
+  <link rel="stylesheet" href="/styles.css">
+  <title>SpotScout Lab — See the Game. Understand More.</title>
+</head>
+<body data-theme="dark">
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#/home" aria-label="SpotScout Lab home">
+      <img src="/assets/sp-logo.png" alt="" width="34" height="34">
+      <span>SpotScout <b>Lab</b></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#/home#product" data-section="product">Product</a>
+      <a href="#/home#scout-lab" data-section="scout-lab">Scout Lab</a>
+      <a href="#/service">Scouting Service</a>
+      <a href="#/pricing">Pricing</a>
+      <a href="#/learn">Learn</a>
+      <a href="#/support">Support</a>
+    </nav>
+    <div class="nav-actions">
+      <div class="language-switch" role="group" aria-label="Language">
+        <button type="button" data-set-language="th" aria-pressed="false">ไทย</button>
+        <button type="button" data-set-language="en" aria-pressed="true">EN</button>
+      </div>
+      <button class="icon-button theme-toggle" type="button" data-action="theme" aria-label="Switch color theme"><span class="theme-glyph">◐</span></button>
+      <a class="nav-signin" href="#/login">Sign in</a>
+      <a class="button button-small button-quiet nav-download" href="#/download">Download</a>
+      <a class="button button-small button-light nav-cta" href="#/pricing">Get SpotScout</a>
+      <button class="icon-button menu-toggle" type="button" data-action="menu" aria-label="Open navigation" aria-expanded="false"><span class="menu-glyph">☰</span></button>
+    </div>
+    <nav class="mobile-nav" aria-label="Mobile navigation">
+      <a href="#/home#product" data-section="product">Product</a>
+      <a href="#/home#scout-lab" data-section="scout-lab">Scout Lab</a>
+      <a href="#/service">Scouting Service</a>
+      <a href="#/pricing">Pricing</a>
+      <a href="#/learn">Learn</a>
+      <a href="#/support">Support</a>
+      <a href="#/login">Sign in</a>
+      <a href="#/download">Download for Windows</a>
+      <div class="language-switch mobile-language-switch" role="group" aria-label="Language">
+        <button type="button" data-set-language="th" aria-pressed="false">ไทย</button>
+        <button type="button" data-set-language="en" aria-pressed="true">EN</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="views">
+    <div class="view active" data-view="home">
+      <section class="hero" id="product">
+        <div class="hero-photo"></div>
+        <div class="hero-content">
+          <div class="hero-copy reveal">
+            <p class="eyebrow"><span class="eyebrow-line"></span> Sports performance intelligence</p>
+            <h1>See the Game.<br><span>Understand More.</span></h1>
+            <p class="hero-lede">Professional scouting, video analysis and performance intelligence — built for modern sport.</p>
+            <div class="hero-actions">
+              <a class="button button-light" href="#/download"><span class="download-mark">↓</span> Download SpotScout <span class="arrow">↗</span></a>
+              <a class="button button-outline" href="#/home#scout-lab" data-section="scout-lab">Explore Scout Lab <span class="arrow">↘</span></a>
+            </div>
+            <div class="hero-proof">
+              <span><i class="proof-icon">◫</i> Analyze video faster</span>
+              <span><i class="proof-icon">⌁</i> Review tags by time</span>
+              <span><i class="proof-icon">◉</i> Present like a pro</span>
+            </div>
+          </div>
+          <div class="hero-product reveal" aria-label="SpotScout desktop app preview">
+            <div class="product-window">
+              <div class="window-topbar">
+                <div class="window-brand"><img src="/assets/sp-logo.png" alt=""><span>SpotScout <b>Lab</b></span></div>
+                <div class="window-title">Badminton · Women’s Singles <span class="window-dot"></span> Review session</div>
+                <div class="window-top-actions"><span>⤢</span><span>⋯</span></div>
+              </div>
+              <div class="window-main">
+                <aside class="window-rail">
+                  <div class="rail-item selected"><span>◉</span><b>Game</b></div>
+                  <div class="rail-item"><span>⌁</span><b>Timeline</b></div>
+                  <div class="rail-item"><span>♙</span><b>Players</b></div>
+                  <div class="rail-item"><span>▦</span><b>Analytics</b></div>
+                  <div class="rail-item"><span>▤</span><b>Reports</b></div>
+                  <div class="rail-spacer"></div>
+                  <div class="rail-item rail-settings"><span>⚙</span><b>Settings</b></div>
+                </aside>
+                <div class="window-center">
+                  <div class="workspace-tabs"><span class="tab-active">Match review</span><span>All events</span><span>Analysis notes</span><span class="tab-more">•••</span></div>
+                  <div class="video-stage">
+                    <img src="/assets/arena-hero.png" alt="" class="video-image">
+                    <div class="video-vignette"></div>
+                    <div class="video-top-meta"><span class="live-label"><i></i> REVIEW</span><span>GAME 02&nbsp; · &nbsp;08:17</span><span>16:9</span></div>
+                    <svg class="track-overlay" viewBox="0 0 800 420" aria-hidden="true">
+                      <path d="M285 278 C340 250, 390 260, 433 208 S535 154, 595 185" fill="none" stroke="#d8ff49" stroke-width="2" stroke-dasharray="7 8" opacity=".82"/>
+                      <circle cx="433" cy="208" r="11" fill="none" stroke="#d8ff49" stroke-width="2"/>
+                      <circle cx="433" cy="208" r="3" fill="#d8ff49"/>
+                      <circle cx="596" cy="185" r="9" fill="none" stroke="#ff7c5d" stroke-width="2"/>
+                      <path d="M420 214l26-14M590 178l13 14" stroke="#fff" opacity=".8"/>
+                    </svg>
+                    <div class="video-caption"><span>Rally 14</span><span>Net approach · Won</span></div>
+                    <div class="video-center-controls"><span>⟲</span><button type="button" aria-label="Play preview">▶</button><span>⟳</span></div>
+                    <div class="video-bottom-meta"><span>00:08:17.24</span><span>0.5×</span><span>1080p</span></div>
+                  </div>
+                  <div class="video-control-row"><span>◀</span><span class="play-mini">▶</span><span>▶|</span><div class="video-progress"><i></i></div><span>05:42 / 12:06</span><span>⛶</span></div>
+                  <div class="timeline-preview">
+                    <div class="timeline-head"><span>GAME TIMELINE</span><span>12:06 total <b>⌄</b></span></div>
+                    <div class="timeline-track"><div class="time-ticks"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><b class="event-pin pin-lime"></b><b class="event-pin pin-orange"></b><b class="event-pin pin-blue"></b><b class="event-pin pin-red"></b><b class="event-pin pin-lime pin-two"></b><b class="playhead"></b></div>
+                    <div class="timeline-film"><span>▰</span><span>▱</span><span>▰</span><span>▱</span><span>▰</span><span>▱</span><span>▰</span><span>▱</span><span>▰</span><span>▱</span><span>▰</span><span>▱</span></div>
+                  </div>
+                </div>
+                <aside class="window-insights">
+                  <div class="insight-tabs"><span class="insight-active">Events</span><span>Players</span><span>Notes</span></div>
+                  <div class="event-list">
+                    <div class="event-item"><b class="event-time">00:12</b><i class="event-dot lime"></i><span>Net approach</span><em>Won</em></div>
+                    <div class="event-item"><b class="event-time">00:24</b><i class="event-dot blue"></i><span>Clear</span><em>Neutral</em></div>
+                    <div class="event-item"><b class="event-time">00:41</b><i class="event-dot orange"></i><span>Smash attempt</span><em>Won</em></div>
+                    <div class="event-item"><b class="event-time">01:08</b><i class="event-dot red"></i><span>Unforced error</span><em>Error</em></div>
+                  </div>
+                  <div class="mini-court-card"><div class="mini-card-title">COURT MAP <span>↗</span></div><div class="mini-court"><i class="court-mid"></i><i class="court-service"></i><b class="court-dot court-a"></b><b class="court-dot court-b"></b><b class="court-dot court-c"></b><svg viewBox="0 0 180 112"><path d="M55 74 C72 36, 114 38, 126 61 S95 92, 75 48" fill="none" stroke="#d8ff49" stroke-width="1.5" stroke-dasharray="4 4"/></svg></div></div>
+                  <div class="mini-stats"><div><span>RALLIES</span><b>28</b></div><div><span>WIN RATE</span><b>64<small>%</small></b></div></div>
+                </aside>
+              </div>
+            </div>
+            <div class="product-caption"><span><i class="status-dot"></i> SpotScout for Windows</span><span>Product preview · Match Review</span></div>
+          </div>
+        </div>
+        <div class="hero-bottom"><span>01 / A clearer view of the game</span><span>Scroll to explore <b>↓</b></span></div>
+      </section>
+
+      <section class="story-section scout-faster-section" id="scout-faster">
+        <div class="section-intro section-intro-wide reveal">
+          <div><p class="eyebrow">A workspace built for scouts</p><h2>Scouting starts<br>with a better view.</h2></div>
+          <p>Tag, organize and review games in a focused workspace. Keep every moment connected to the analysis that follows.</p>
+        </div>
+        <div class="story-grid three-col">
+          <article class="story-card story-card-large reveal">
+            <div class="card-art tagging-art">
+              <div class="art-toolbar"><span>ADD EVENT</span><span>⌘ K</span></div>
+              <div class="tag-row"><i class="tag-square lime-bg">↗</i><span>Offense</span><b>⌘ 1</b></div>
+              <div class="tag-row"><i class="tag-square blue-bg">↘</i><span>Defense</span><b>⌘ 2</b></div>
+              <div class="tag-row"><i class="tag-square orange-bg">⇄</i><span>Transition</span><b>⌘ 3</b></div>
+              <div class="tag-row"><i class="tag-square silver-bg">◉</i><span>Set play</span><b>⌘ 4</b></div>
+              <div class="tag-row tag-row-muted"><i class="tag-square gray-bg">＋</i><span>Create a tag</span><b>↵</b></div>
+            </div>
+            <div class="story-card-copy"><p class="eyebrow">Scout faster</p><h3>Tag and review each match from one workspace.</h3><p>Tag match events and keep review notes beside the video.</p><a class="text-link" href="#/home#product">Explore the workspace <span>↗</span></a></div>
+          </article>
+          <article class="story-card story-card-large reveal">
+            <div class="card-art frame-art">
+              <div class="frame-video"><img src="/assets/arena-hero.png" alt=""><span class="frame-time">00:42.18</span><i class="frame-target"></i></div>
+              <div class="frame-film"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+              <div class="frame-events"><b class="lime-bg"></b><b class="orange-bg"></b><b class="blue-bg"></b><b class="red-bg"></b></div>
+              <div class="frame-toolbar"><span>◀</span><b>▶</b><span>▶|</span><span>1 frame</span><span>⌖</span></div>
+            </div>
+            <div class="story-card-copy"><p class="eyebrow">Review every moment</p><h3>Frame-by-frame control.</h3><p>Navigate, tag and review every key moment with precision.</p><a class="text-link" href="#/home#product">See the timeline <span>↗</span></a></div>
+          </article>
+          <article class="story-card story-card-large reveal">
+            <div class="card-art report-art">
+              <div class="report-heading"><span>PLAYER REPORT</span><span>PDF ↗</span></div>
+              <div class="report-player"><div class="player-avatar">23</div><div><b>Player #23</b><span>Guard · Match 04</span></div><i>•••</i></div>
+              <div class="report-numbers"><div><b>18</b><span>PTS</span></div><div><b>5</b><span>REB</span></div><div><b>7</b><span>AST</span></div></div>
+              <div class="report-bottom"><div class="report-heat"><i></i></div><div class="report-shotmap"><b>●</b><b>●</b><b>●</b><b>●</b></div></div>
+            </div>
+            <div class="story-card-copy"><p class="eyebrow">Present what matters</p><h3>Build a report from tagged events.</h3><p>Collect match tags and key moments in a report that coaches can review.</p><a class="text-link" href="#/pricing">Compare plans <span>↗</span></a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="lab-section" id="scout-lab">
+        <div class="lab-heading reveal">
+          <div><p class="eyebrow">Advanced analysis</p><h2>Add player tracking<br>with Scout Lab.</h2><p class="section-lede">Review player positions, court coverage and movement for sports supported by the selected tools.</p><a class="button button-light" href="#/pricing">Explore Scout Lab <span class="arrow">↗</span></a></div>
+          <div class="lab-note"><span>01—04</span><p>From the moment<br>to the whole match.</p><span class="thin-rule"></span><span class="lab-note-small">A connected analysis workflow</span></div>
+        </div>
+        <div class="analysis-grid">
+          <article class="analysis-card reveal"><div class="analysis-visual tracking-visual"><div class="tracking-court"><span class="path-line"></span><i class="track-ring ring-one"></i><i class="track-ring ring-two"></i><i class="track-ring ring-three"></i><b class="player-dot player-one"></b><b class="player-dot player-two"></b><b class="player-dot player-three"></b><span class="track-label">PLAYER 03</span></div></div><p class="eyebrow">01 / Player tracking</p><h3>Follow every movement.</h3><p>Track movement and positioning with a clear spatial view.</p></article>
+          <article class="analysis-card reveal"><div class="analysis-visual heat-visual"><div class="heat-court"><i></i><b></b><span></span></div><div class="heat-legend"><span>LOW</span><i></i><span>HIGH</span></div></div><p class="eyebrow">02 / Heatmaps</p><h3>Map player movement across the court.</h3><p>Compare player coverage and activity across court zones.</p></article>
+          <article class="analysis-card reveal"><div class="analysis-visual mapping-visual"><div class="mapping-court"><b class="map-player m1">A</b><b class="map-player m2">B</b><b class="map-player m3">C</b><i></i><i></i><i></i><span>ATTACK ZONE</span></div></div><p class="eyebrow">03 / Court mapping</p><h3>Make space visible.</h3><p>Visualize positioning, zones and team shape.</p></article>
+          <article class="analysis-card reveal"><div class="analysis-visual movement-visual"><svg viewBox="0 0 340 180" aria-hidden="true"><path d="M35 138 C83 104, 92 112, 129 73 S183 48, 212 75 S267 103, 311 37" fill="none" stroke="#d7ff4c" stroke-width="2" stroke-dasharray="5 6"/><circle cx="35" cy="138" r="8" fill="#fff"/><circle cx="129" cy="73" r="9" fill="#d7ff4c"/><circle cx="212" cy="75" r="7" fill="#fff"/><circle cx="311" cy="37" r="10" fill="none" stroke="#d7ff4c" stroke-width="2"/></svg><div class="movement-axis"><span>START</span><span>END</span></div></div><p class="eyebrow">04 / Movement analysis</p><h3>Review movement sequences.</h3><p>Compare movement paths across a match.</p></article>
+        </div>
+        <div class="lab-foot"><span>Scout Lab extends the SpotScout scouting workflow.</span><a class="text-link" href="#/pricing">See what’s included <span>↗</span></a></div>
+      </section>
+
+      <section class="story-section level-section" id="levels">
+        <div class="center-heading reveal"><p class="eyebrow">Choose your level of analysis</p><h2>Start with scouting.<br>Add spatial analysis.</h2><p>Compare manual review tools with the additional tracking features in Scout Lab.</p></div>
+        <div class="level-comparison">
+          <article class="level-card reveal"><div class="level-card-head"><div><p class="eyebrow">Scouting workspace</p><h3>SpotScout <span>Scout</span></h3></div><span class="level-symbol">01</span></div><p>Build a clear, repeatable scouting workflow from video to report.</p><div class="level-lines"><span>Manual scouting & tagging</span><span>Timeline & video review</span><span>HUD, reports & export</span><span class="line-muted">Advanced tracking analysis</span></div><a class="button button-outline" href="#/pricing">View Scout <span class="arrow">↗</span></a></article>
+          <div class="level-bridge"><span>+</span><small>Go further</small></div>
+          <article class="level-card level-card-feature reveal"><div class="level-card-head"><div><p class="eyebrow">Advanced performance insight</p><h3>SpotScout <span>Scout Lab</span></h3></div><span class="level-symbol">02</span></div><p>Everything in Scout, with spatial tracking and movement analysis.</p><div class="level-lines"><span>Everything in Scout</span><span>Player tracking & heatmaps</span><span>Court mapping & movement</span><span>Advanced analytics reports</span></div><a class="button button-light" href="#/pricing">Explore Scout Lab <span class="arrow">↗</span></a></article>
+        </div>
+      </section>
+
+      <section class="pricing-section story-section" id="pricing">
+        <div class="pricing-header reveal"><div><p class="eyebrow">Pricing</p><h2>Compare SpotScout plans.</h2><p>Choose the plan that fits your workflow.</p><p class="prototype-disclaimer pricing-disclaimer">Illustrative prices for prototype planning. Final prices and terms are not confirmed.</p></div><div class="billing-toggle" role="group" aria-label="Billing period"><button type="button" class="billing-choice active" data-billing="annual">Annual</button><button type="button" class="billing-choice" data-billing="lifetime">Lifetime</button></div></div>
+        <div class="pricing-grid">
+          <article class="price-card reveal"><div class="plan-kicker">01 / Individual</div><h3>Scout</h3><p>Essential tools for individual scouts and coaches.</p><div class="price-value"><strong data-annual="฿6,900" data-lifetime="฿16,900">฿6,900</strong><span data-price-suffix>/ year</span></div><div class="price-divider"></div><ul class="check-list"><li>Scouting Workspace</li><li>Timeline & Tagging</li><li>HUD & Reports</li><li>Export Video & Data</li><li>1 user · 1 registered device</li></ul><button class="button button-outline full-button" type="button" disabled>Purchases are not open yet</button><span class="plan-footnote">1 active device at a time</span></article>
+          <article class="price-card price-card-recommended reveal"><div class="popular-pill">FEATURED PLAN</div><div class="plan-kicker">02 / Advanced</div><h3>Scout Lab</h3><p>Review player positioning and movement for sports and footage supported by the analysis tools.</p><div class="price-value"><strong data-annual="฿14,900" data-lifetime="฿34,900">฿14,900</strong><span data-price-suffix>/ year</span></div><div class="price-divider"></div><ul class="check-list"><li>Everything in Scout</li><li>Player Tracking & Heatmaps</li><li>Court Mapping & Movement</li><li>Advanced Reports</li><li>Up to 2 registered devices</li></ul><button class="button button-light full-button" type="button" disabled>Purchases are not open yet</button><span class="plan-footnote">1 active device at a time</span></article>
+          <article class="price-card reveal"><div class="plan-kicker">03 / Organization</div><h3>Team</h3><p>Built for teams, organizations and academies.</p><div class="price-value"><strong>From ฿29,900</strong><span>/ year</span></div><div class="price-divider"></div><ul class="check-list"><li>Everything in Scout Lab</li><li>3 user seats included</li><li>Team management</li><li>Multiple concurrent users</li><li>Priority support</li></ul><a class="button button-outline full-button" href="#/support">Contact Sales <span class="arrow">↗</span></a><span class="plan-footnote">Additional seats available</span></article>
+        </div>
+        <p class="pricing-note">University and organization licensing includes custom deployment and training options. <a href="#/support">Talk to our team ↗</a></p>
+      </section>
+
+      <section class="story-section learn-section" id="learn">
+        <div class="section-intro reveal"><div><p class="eyebrow">Learn & support</p><h2>Learn the SpotScout workflow.</h2></div><p>Guides and training are planned for scouting, video review and match reporting.</p></div>
+        <div class="learn-grid">
+          <a class="learn-card reveal" href="#/learn"><span class="learn-icon">▤</span><b>Documentation</b><span>Step-by-step manuals and guides.</span><i>↗</i></a>
+          <a class="learn-card reveal" href="#/learn"><span class="learn-icon">▷</span><b>Video tutorials</b><span>Learn at your own pace.</span><i>↗</i></a>
+          <a class="learn-card reveal" href="#/learn"><span class="learn-icon">◎</span><b>Live training</b><span>Join instructor-led sessions.</span><i>↗</i></a>
+          <a class="learn-card reveal" href="#/learn"><span class="learn-icon">◷</span><b>Monthly workshop</b><span>Practice with other analysts.</span><i>↗</i></a>
+          <a class="learn-card reveal" href="#/support"><span class="learn-icon">?</span><b>FAQ</b><span>Answers to common questions.</span><i>↗</i></a>
+          <a class="learn-card reveal" href="#/support"><span class="learn-icon">⌕</span><b>Support</b><span>Get help from our team.</span><i>↗</i></a>
+        </div>
+        <a class="text-link learn-all" href="#/learn">Visit SpotScout Academy <span>↗</span></a>
+      </section>
+
+      <section class="learning-path-section">
+        <div class="learning-path-copy reveal"><p class="eyebrow">Your learning path</p><h2>From your first match<br>to advanced analysis.</h2><p>Learn in small steps, build confidence with each match, and keep your workflow moving.</p><a class="button button-outline" href="#/learn">Explore the Academy <span class="arrow">↗</span></a></div>
+        <div class="learning-path reveal">
+          <div class="path-progress"><i></i></div>
+          <div class="path-step complete"><span>01</span><b>Getting started</b><i>✓</i></div>
+          <div class="path-step complete"><span>02</span><b>Create a project</b><i>✓</i></div>
+          <div class="path-step active-path"><span>03</span><b>Scout & tag events</b><i>→</i></div>
+          <div class="path-step"><span>04</span><b>Timeline & review</b><i>○</i></div>
+          <div class="path-step"><span>05</span><b>HUD & reports</b><i>○</i></div>
+          <div class="path-step"><span>06</span><b>Scout Lab</b><i>○</i></div>
+          <div class="path-step"><span>07</span><b>Tracking & analytics</b><i>○</i></div>
+        </div>
+      </section>
+
+      <section class="service-band" id="service-preview">
+        <div class="service-band-inner">
+          <div class="service-copy reveal"><p class="eyebrow">Scouting service</p><h2>Need the analysis,<br>not the software?</h2><p>Send us your match. Our analysts turn your footage into clear, actionable insights.</p><a class="button button-dark" href="#/service">Learn about scouting service <span class="arrow">↗</span></a></div>
+          <div class="service-flow reveal"><div class="flow-step"><b>01</b><span>Share the match</span><i>Drive link or upload</i></div><div class="flow-step"><b>02</b><span>Choose analysis</span><i>Pick a service level</i></div><div class="flow-step"><b>03</b><span>We analyze</span><i>Analyst review</i></div><div class="flow-step"><b>04</b><span>Get your report</span><i>Video + insights</i></div><div class="drive-input"><span class="drive-label">Submit your match</span><div class="fake-input"><span>Google Drive link</span><button type="button" data-go="service">Continue <b>→</b></button></div><small>Prototype prices · Quick Scout from ฿4,900 · Advanced from ฿9,900</small></div></div>
+          <div class="service-offers reveal"><article><p class="eyebrow">Quick Scout</p><h3>Focused analysis<br>for one game.</h3><p>Key moments · Highlights · Match summary</p><strong>From ฿4,900</strong><a href="#/service" aria-label="Explore Quick Scout">↗</a></article><article><p class="eyebrow">Advanced Analysis</p><h3>Deeper performance<br>insight.</h3><p>Tactical breakdown · Tracking · Heatmaps</p><strong>From ฿9,900</strong><a href="#/service" aria-label="Explore advanced analysis">↗</a></article></div>
+        </div>
+      </section>
+
+      <section class="account-preview-section">
+        <div class="account-preview-intro reveal"><p class="eyebrow">Your account</p><h2>Everything<br>in one place.</h2><p>Manage your plan, downloads, devices and scouting orders in your personal portal.</p><a class="text-link" href="#/account">Explore your account <span>↗</span></a></div>
+        <div class="account-preview reveal">
+          <aside class="account-side"><div class="account-logo"><img src="/assets/sp-logo.png" alt=""><span>SpotScout <b>Lab</b></span></div><div class="account-side-link selected">◉ &nbsp; Overview</div><div class="account-side-link">▤ &nbsp; Plans & Billing</div><div class="account-side-link">↓ &nbsp; Downloads</div><div class="account-side-link">▣ &nbsp; Devices</div><div class="account-side-link">⌁ &nbsp; Scouting orders</div><div class="account-side-link">▷ &nbsp; Learning</div><div class="account-side-link">? &nbsp; Support</div><div class="account-side-bottom">⚙ &nbsp; Settings</div></aside>
+          <div class="account-main"><div class="account-top"><div><span>SAMPLE ACCOUNT PREVIEW</span><h3>Welcome back, Coach.</h3><p>Example data for the account portal design.</p></div><div class="account-user"><i>CE</i><span>Coach Example<br><small>Sample account</small></span><b>⌄</b></div></div>
+            <div class="account-cards"><article><span class="account-card-head">SUBSCRIPTION <i>•••</i></span><b>Scout Lab</b><span class="state-label"><i></i> Active</span><small>Renews 10 Feb 2027</small><a href="#/account">Manage plan ↗</a></article><article><span class="account-card-head">DEVICES <i>•••</i></span><b>1 <small>/ 2</small></b><span>Desktop-PC <i class="device-active">Active</i></span><span>Notebook <i>Registered</i></span><a href="#/account">Manage devices ↗</a></article><article><span class="account-card-head">SCOUTING ORDERS <i>•••</i></span><b>3 <small>open orders</small></b><span>1 completed · 1 processing</span><span>1 waiting for review</span><a href="#/account">View orders ↗</a></article><article><span class="account-card-head">DOWNLOADS <i>•••</i></span><b>SpotScout <small>for Windows</small></b><span>Release not available yet</span><span>Windows 10 / 11</span><a href="#/download">Download ↗</a></article></div>
+            <div class="account-course-preview"><div><span class="eyebrow">Continue learning</span><b>SpotScout Fundamentals</b><span>Lesson 6 of 8 · Scouting a match</span></div><div class="course-progress"><div><i></i></div><b>65%</b></div><a class="button button-light button-small" href="#/course">Continue course ↗</a></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="security-strip">
+        <div class="security-heading"><p class="eyebrow">Account, payment and download controls are planned for a future release.</p></div>
+        <div class="security-items"><article><span class="security-icon">▣</span><div><b>Account sign-in · planned</b><p>Real account access is not connected in this preview.</p></div></article><article><span class="security-icon">⌘</span><div><b>Device management · planned</b><p>Device registration is not available yet.</p></div></article><article><span class="security-icon">▤</span><div><b>Website payments · not active</b><p>This preview does not accept payments.</p></div></article><article><span class="security-icon">◈</span><div><b>License checks · not connected</b><p>Download and plan access are not verified yet.</p></div></article></div>
+      </section>
+
+      <section class="download-section" id="download-section">
+        <div class="download-copy reveal"><p class="eyebrow">SpotScout for Windows</p><h2>Built for the desktop.<br>Designed for match review.</h2><p>Review match video, organize tagged events and prepare reports in one desktop workspace.</p><div class="download-badges"><span>Windows 10</span><span>Windows 11</span><span>Release not announced</span></div><div class="hero-actions"><a class="button button-light" href="#/download">View download status <span class="arrow">↗</span></a><a class="button button-outline" href="#/download#download-requirements">System requirements</a></div><small>When released, the installer will require an account and an active license.</small></div>
+        <div class="download-device reveal"><div class="device-screen"><div class="device-toolbar"><i></i><i></i><i></i><span>SpotScout Lab · Match Review</span></div><div class="device-grid"><div class="device-side"><b>▦</b><b>⌁</b><b>♙</b><b>▤</b></div><div class="device-video"><img src="/assets/arena-hero.png" alt=""><span>GAME 02 · 08:17</span><i></i></div><div class="device-right"><b>EVENTS</b><span><i></i> Net approach</span><span><i></i> Smash attempt</span><span><i></i> Rally won</span><b>PLAYER DATA</b><div class="device-map"></div></div></div><div class="device-timeline"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div><div class="device-base"></div></div>
+      </section>
+
+      <section class="final-cta"><div class="final-cta-photo"></div><div class="final-cta-inner reveal"><p class="eyebrow">SpotScout Lab</p><h2>See more.<br>Understand more.</h2><p>Bring professional sports analysis into your workflow.</p><div class="hero-actions"><a class="button button-light" href="#/pricing">Get SpotScout <span class="arrow">↗</span></a><a class="button button-outline" href="#/download">Download</a></div></div></section>
+    </div>
+
+    <div class="view page-view" data-view="pricing">
+      <section class="page-hero compact-page-hero"><p class="eyebrow">Plans & pricing</p><h1>Choose the tools that<br>match your ambition.</h1><p>One scouting workflow, two individual plans, and a flexible option for teams.</p><p class="prototype-disclaimer pricing-disclaimer">Illustrative prices for prototype planning. Final prices and terms are not confirmed.</p><div class="billing-toggle page-billing-toggle" role="group" aria-label="Billing period"><button type="button" class="billing-choice active" data-billing="annual">Annual</button><button type="button" class="billing-choice" data-billing="lifetime">Lifetime</button></div></section>
+      <section class="page-pricing-grid pricing-grid">
+        <article class="price-card"><div class="plan-kicker">01 / Individual</div><h3>Scout</h3><p>Essential tools for individual scouts and coaches.</p><div class="price-value"><strong data-annual="฿6,900" data-lifetime="฿16,900">฿6,900</strong><span data-price-suffix>/ year</span></div><div class="price-divider"></div><ul class="check-list"><li>Scouting Workspace</li><li>Timeline & Tagging</li><li>HUD & Reports</li><li>Export Video & Data</li><li>1 user · 1 registered device</li></ul><button class="button button-outline full-button" type="button" disabled>Purchases are not open yet</button><span class="plan-footnote">1 active device at a time</span></article>
+        <article class="price-card price-card-recommended"><div class="popular-pill">FEATURED PLAN</div><div class="plan-kicker">02 / Advanced</div><h3>Scout Lab</h3><p>Review player positioning and movement for sports and footage supported by the analysis tools.</p><div class="price-value"><strong data-annual="฿14,900" data-lifetime="฿34,900">฿14,900</strong><span data-price-suffix>/ year</span></div><div class="price-divider"></div><ul class="check-list"><li>Everything in Scout</li><li>Advanced video analysis</li><li>Player tracking & heatmaps</li><li>Court mapping & movement</li><li>Up to 2 registered devices</li></ul><button class="button button-light full-button" type="button" disabled>Purchases are not open yet</button><span class="plan-footnote">1 active device at a time</span></article>
+        <article class="price-card"><div class="plan-kicker">03 / Organization</div><h3>Team</h3><p>Built for teams, organizations and academies.</p><div class="price-value"><strong>From ฿29,900</strong><span>/ year</span></div><div class="price-divider"></div><ul class="check-list"><li>Everything in Scout Lab</li><li>3 user seats included</li><li>Team management</li><li>Multiple concurrent users</li><li>Priority support</li></ul><a class="button button-outline full-button" href="#/support">Contact Sales <span class="arrow">↗</span></a><span class="plan-footnote">Additional seats available</span></article>
+      </section>
+      <div class="page-pricing-note"><p>University and organization licensing</p><span>Custom licensing, deployment and training options are available for universities, clubs and academies.</span><a class="button button-outline" href="#/support">Discuss a team plan <span class="arrow">↗</span></a></div>
+      <section class="comparison-section"><div class="section-heading"><p class="eyebrow">Plan comparison</p><h2>Know what’s included.</h2></div><div class="comparison-table-wrap"><table class="comparison-table"><thead><tr><th>Capability</th><th>Scout</th><th class="highlight-column">Scout Lab</th><th>Team</th></tr></thead><tbody>
+        <tr class="compare-group"><th colspan="4">Scouting & video review</th></tr><tr><td>Scouting workspace</td><td>Included</td><td>Included</td><td>Included</td></tr><tr><td>Timeline & tagging</td><td>Included</td><td>Included</td><td>Included</td></tr><tr><td>Video review & frame control</td><td>Included</td><td>Included</td><td>Included</td></tr><tr><td>HUD & highlight export</td><td>Included</td><td>Included</td><td>Included</td></tr><tr><td>Reports & data export</td><td>Standard</td><td>Advanced</td><td>Advanced</td></tr>
+        <tr class="compare-group"><th colspan="4">Performance analysis</th></tr><tr><td>Player tracking</td><td>—</td><td>Included</td><td>Included</td></tr><tr><td>Heatmaps & court mapping</td><td>—</td><td>Included</td><td>Included</td></tr><tr><td>Movement analysis</td><td>—</td><td>Included</td><td>Included</td></tr>
+        <tr class="compare-group"><th colspan="4">Access & support</th></tr><tr><td>Registered devices</td><td>1</td><td>Up to 2</td><td>By seat</td></tr><tr><td>Concurrent devices</td><td>1</td><td>1</td><td>Multiple</td></tr><tr><td>Users / seats</td><td>1</td><td>1</td><td>3 included</td></tr><tr><td>Training & priority support</td><td>Guides</td><td>Guides + workshops</td><td>Priority + team training</td></tr>
+      </tbody></table></div><p class="table-footnote">Individual licenses support one active device at a time. Scout Lab may register up to two devices, but only one can be active at once. Team access uses separate accounts for each seat.</p></section>
+      <section class="faq-section"><div><p class="eyebrow">Frequently asked questions</p><h2>Good to know.</h2></div><div class="faq-list">
+        <details><summary>Can I change computers?<span>＋</span></summary><p>Yes. Manage registered devices in your account portal. The number of registered devices depends on your plan.</p></details>
+        <details><summary>Can I use SpotScout on two computers?<span>＋</span></summary><p>Individual licenses allow one active device at a time. Scout Lab can register up to two devices, but only one may be active at once.</p></details>
+        <details><summary>What does Lifetime mean?<span>＋</span></summary><p>Lifetime is a one-time license for the SpotScout plan purchased. Update and support terms will be confirmed before launch.</p></details>
+        <details><summary>Are updates included?<span>＋</span></summary><p>Update coverage is being finalized. The final license terms will be shown before purchase.</p></details>
+        <details><summary>Can teams share one account?<span>＋</span></summary><p>No. Team plans use seat-based access. Each user signs in with their own account.</p></details>
+        <details><summary>What happens when my annual plan expires?<span>＋</span></summary><p>Your subscription status and access options will appear in your account portal. You can renew or review your plan there.</p></details>
+      </div></section>
+    </div>
+
+    <div class="view auth-view" data-view="login">
+      <section class="auth-page"><div class="auth-side-copy"><p class="eyebrow">SpotScout Lab · Account access</p><h1>Your scouting work,<br>ready when you are.</h1><p>Sign in to manage your license, devices, learning and scouting orders.</p><div class="auth-side-detail"><span>01</span><b>One account for your SpotScout workflow</b><span>Secure account-based licensing</span></div></div><form class="auth-panel" data-form="login"><p class="prototype-disclaimer auth-preview-warning">Preview only. Account access is not connected. Do not enter a real password.</p><img src="/assets/sp-logo.png" alt="SpotScout Lab" class="auth-logo"><p class="eyebrow">Welcome back</p><h2>Sign in to SpotScout</h2><p class="auth-subcopy">Choose how you’d like to continue.</p><button class="social-button" type="button" data-action="prototype-notice"><span class="social-letter">G</span> Continue with Google <i>↗</i></button><button class="social-button" type="button" data-action="prototype-notice"><span class="social-letter">▦</span> Continue with Microsoft <i>↗</i></button><div class="auth-divider"><span>or continue with email</span></div><label>Email address<input type="email" name="email" placeholder="you@example.com" required></label><label>Password<span class="password-wrap"><input type="password" name="password" placeholder="Enter your password" required minlength="6"><button type="button" data-action="toggle-password">Show</button></span></label><a class="forgot-link" href="#/support">Forgot password?</a><button class="button button-light auth-submit" type="submit">Sign in <span class="arrow">↗</span></button><p class="auth-switch">New to SpotScout? <a href="#/register">Create an account</a></p><small>Sign-in is a visual preview. No session is created.</small></form></section>
+    </div>
+
+    <div class="view auth-view" data-view="register">
+      <section class="auth-page auth-page-register"><div class="auth-side-copy"><p class="eyebrow">Start with a clearer view</p><h1>Set up your<br>SpotScout account.</h1><p>Your account keeps your license, devices, training and scouting orders together.</p><div class="auth-side-detail"><span>SPOTSCOUT LAB</span><b>Designed for the whole analysis workflow.</b><span>Scout · Review · Analyze · Report</span></div></div><form class="auth-panel" data-form="register"><p class="prototype-disclaimer auth-preview-warning">Preview only. Account creation and purchases are not connected. Do not enter a real password.</p><img src="/assets/sp-logo.png" alt="SpotScout Lab" class="auth-logo"><p class="eyebrow">Create account</p><h2>Join SpotScout Lab</h2><p class="auth-subcopy">Create an account for your SpotScout products.</p><label>Full name<input type="text" name="name" placeholder="Your full name" required></label><label>Email address<input type="email" name="email" placeholder="you@example.com" required></label><label>Password<input type="password" name="password" placeholder="At least 8 characters" required minlength="8"></label><label>Confirm password<input type="password" name="confirm-password" placeholder="Re-enter your password" required minlength="8"></label><p class="prototype-disclaimer legal-status-note">Terms and Privacy Policy are not published. This preview does not create an account.</p><button class="button button-light auth-submit" type="submit">Create account <span class="arrow">↗</span></button><div class="auth-divider"><span>or sign up with</span></div><div class="social-pair"><button class="social-button" type="button" data-action="prototype-notice">Google</button><button class="social-button" type="button" data-action="prototype-notice">Microsoft</button></div><p class="auth-switch">Already have an account? <a href="#/login">Sign in</a></p><small>No account is saved by this form.</small></form></section>
+    </div>
+
+    <div class="view dashboard-view" data-view="account">
+      <section class="dashboard-page"><aside class="dashboard-sidebar"><a href="#/home" class="brand"><img src="/assets/sp-logo.png" alt=""><span>SpotScout <b>Lab</b></span></a><p class="sidebar-label">ACCOUNT</p><a class="dash-link active" href="#/account">◉ <span>Overview</span></a><a class="dash-link" href="#account-plans">▤ <span>Plans & Billing</span></a><a class="dash-link" href="#account-downloads">↓ <span>Downloads</span></a><a class="dash-link" href="#account-devices">▣ <span>Devices</span></a><a class="dash-link" href="#account-orders">⌁ <span>Scouting Orders</span></a><a class="dash-link" href="#account-learning">▷ <span>Learning</span></a><a class="dash-link" href="#/support">? <span>Support</span></a><div class="dashboard-sidebar-bottom"><a class="dash-link" href="#/home">↗ <span>Back to SpotScout Lab</span></a><a class="dash-link" href="#/login">⇥ <span>Sign out</span></a></div></aside>
+        <div class="dashboard-content"><div class="dashboard-welcome"><div><p class="eyebrow">Sample account preview</p><h1>Welcome back, Coach.</h1><p>Example plan and order data; no personal account is connected.</p></div><div class="user-menu"><i>CE</i><span>Coach Example<br><small>Individual account</small></span><b>⌄</b></div></div>
+          <div class="dashboard-prototype-note"><span>◌</span> Sample account view. These example details are not linked to a real account.</div>
+          <div class="dashboard-overview-grid" id="account-plans"><article class="dash-panel subscription-panel"><div class="dash-panel-head"><span>SUBSCRIPTION</span><span>•••</span></div><p class="eyebrow">INDIVIDUAL PLAN</p><h2>Scout Lab</h2><span class="state-label"><i></i> Active</span><div class="dash-panel-foot"><span>Renews 10 Feb 2027</span><a href="#/pricing">Manage plan ↗</a></div></article>
+          <article class="dash-panel" id="account-devices"><div class="dash-panel-head"><span>DEVICES</span><a href="#account-devices">•••</a></div><h2>1 <small>/ 2 registered</small></h2><div class="device-row"><span class="device-symbol">▣</span><div><b>Desktop-PC</b><small>Windows 11 · Active now</small></div><i class="device-active">Active</i><button type="button" data-action="deactivate-device" class="row-menu">•••</button></div><div class="device-row"><span class="device-symbol">▣</span><div><b>Notebook</b><small>Windows 10 · Last used 3 days ago</small></div><i>Registered</i><button type="button" data-action="rename-device" class="row-menu">•••</button></div><div class="dash-panel-foot"><button type="button" class="text-link" data-action="manage-devices">Manage devices <span>↗</span></button><small>1 active device allowed at a time</small></div></article></div>
+          <div class="dashboard-overview-grid second-row" id="account-orders"><article class="dash-panel"><div class="dash-panel-head"><span>SCOUTING ORDERS</span><a href="#/service">View all ↗</a></div><h2>3 <small>recent orders</small></h2><div class="order-row"><span>SS-0251</span><b>Badminton</b><i class="order-complete">Complete</i></div><div class="order-row"><span>SS-0263</span><b>Basketball</b><i class="order-processing">Processing</i></div><div class="order-row"><span>SS-0271</span><b>Volleyball</b><i class="order-waiting">Waiting</i></div></article><article class="dash-panel download-panel" id="account-downloads"><div class="dash-panel-head"><span>DOWNLOADS</span><span>↘</span></div><div class="download-mini-icon">Sp</div><h3>SpotScout for Windows</h3><p>Release not available yet</p><span class="download-platform">Windows 10 / 11</span><a href="#/download" class="button button-light button-small">Download <span>↗</span></a></article></div>
+          <article class="dash-panel learning-panel" id="account-learning"><div class="learning-panel-copy"><p class="eyebrow">LEARNING</p><h3>SpotScout Fundamentals</h3><p>Continue where you left off · Lesson 6 of 8</p><div class="wide-progress"><span><i></i></span><b>65%</b></div></div><a href="#/course" class="button button-outline button-small">Continue learning <span>↗</span></a></article>
+        </div>
+      </section>
+    </div>
+
+    <div class="view service-view" data-view="service">
+      <section class="service-page-hero"><div><p class="eyebrow">SpotScout scouting service</p><h1>Professional analysis.<br>Without new software.</h1><p>Share your footage and let our analysts turn it into useful, organized insight.</p><a class="button button-light" href="#service-order">Submit a match <span class="arrow">↓</span></a></div><div class="service-hero-art"><div class="service-hero-frame"><img src="/assets/arena-hero.png" alt=""><span>SCOUTING REVIEW · MATCH 04</span><i></i><b>HIGHLIGHT<br>00:42.18</b></div><div class="floating-chip">Tactical breakdown <span>↗</span></div></div></section>
+      <section class="service-steps-section"><div class="center-heading"><p class="eyebrow">A clear process</p><h2>From match footage<br>to useful insight.</h2></div><div class="service-steps"><article><b>01</b><h3>Share the match</h3><p>Send a Google Drive link or video URL with access enabled.</p></article><article><b>02</b><h3>Choose your analysis</h3><p>Select a focused match review or a deeper performance analysis.</p></article><article><b>03</b><h3>We review the game</h3><p>An analyst organizes key moments, patterns and observations.</p></article><article><b>04</b><h3>Receive your report</h3><p>Get a clear summary with supporting video and visual insight.</p></article></div></section>
+      <section class="service-order-section" id="service-order"><div class="service-order-header"><div><p class="eyebrow">Start a scouting order</p><h2>Tell us about your match.</h2><p>Complete the steps to prepare a request. This prototype does not upload videos or place live orders.</p></div><div class="step-indicator"><span class="current-step">01</span><i></i><span>05</span></div></div>
+        <div class="service-form-shell"><div class="service-step-rail"><div class="service-step-item current"><b>01</b><span>Sport</span></div><div class="service-step-item"><b>02</b><span>Match info</span></div><div class="service-step-item"><b>03</b><span>Video</span></div><div class="service-step-item"><b>04</b><span>Service</span></div><div class="service-step-item"><b>05</b><span>Summary</span></div></div>
+          <form class="service-form" data-form="service">
+            <div class="service-stage active" data-stage="1"><p class="eyebrow">STEP 1 OF 5</p><h3>What sport are we reviewing?</h3><p>Choose the sport for your match.</p><label class="wide-label">Sport<select name="sport" required><option value="">Select a sport</option><option>Badminton</option><option>Basketball</option><option>Volleyball</option><option>Football</option><option>Other</option></select></label></div>
+            <div class="service-stage" data-stage="2"><p class="eyebrow">STEP 2 OF 5</p><h3>Add match information.</h3><p>Help our analysts understand the context.</p><div class="form-grid"><label>Team or player<input name="team" placeholder="Your team or athlete" required></label><label>Opponent<input name="opponent" placeholder="Opponent name" required></label><label>Competition<input name="competition" placeholder="League, event or friendly"></label><label>Match date<input name="date" type="date" required></label></div></div>
+            <div class="service-stage" data-stage="3"><p class="eyebrow">STEP 3 OF 5</p><h3>Share the match video.</h3><p>Use a link our analysts can open.</p><label class="wide-label">Google Drive or video link<input name="video" type="url" placeholder="https://drive.google.com/..." required></label><label class="wide-label">Notes for the analyst<textarea name="notes" placeholder="What would you like us to focus on?"></textarea></label><small class="permission-note">Check that the link allows our team to access the video.</small></div>
+            <div class="service-stage" data-stage="4"><p class="eyebrow">STEP 4 OF 5</p><h3>Choose your service.</h3><p>Final prices and delivery timing will be confirmed before an order is placed.</p><div class="service-choice-grid"><label class="service-choice"><input type="radio" name="service" value="Quick Scout" required><span class="choice-radio"></span><span><b>Quick Scout</b><small>Key moments, player highlights and a match summary.</small><strong>From ฿4,900</strong></span><i>01</i></label><label class="service-choice"><input type="radio" name="service" value="Advanced Analysis" required><span class="choice-radio"></span><span><b>Advanced Analysis</b><small>Tactical review, tracking, heatmaps and deeper insight.</small><strong>From ฿9,900</strong></span><i>02</i></label></div></div>
+            <div class="service-stage" data-stage="5"><p class="eyebrow">STEP 5 OF 5</p><h3>Review your request.</h3><p>Check the details below. No order will be submitted from this prototype.</p><div class="summary-lines"><div><span>Sport</span><b data-summary="sport">—</b></div><div><span>Match</span><b data-summary="match">—</b></div><div><span>Video link</span><b data-summary="video">—</b></div><div><span>Service</span><b data-summary="service">—</b></div><div><span>Estimated from</span><b data-summary="price">—</b></div></div></div>
+            <div class="service-form-actions"><button class="button button-outline" type="button" data-action="service-back" hidden>Back</button><button class="button button-dark" type="button" data-action="service-next">Continue <span class="arrow">→</span></button><button class="button button-light" type="submit" data-action="service-submit" hidden>Submit request <span class="arrow">↗</span></button></div>
+          </form>
+        </div>
+        <p class="prototype-disclaimer">Prototype pricing for planning purposes only. The service workflow, payments and video transfer are not connected.</p>
+      </section>
+    </div>
+
+    <div class="view learn-view" data-view="learn">
+      <section class="learn-hero"><div><p class="eyebrow">SpotScout Academy</p><h1>Learn the scouting<br>and review steps.</h1><p>Planned lessons cover match setup, event tagging, video review and reports.</p><a class="button button-light" href="#/course">Preview Fundamentals <span class="arrow">↗</span></a><p class="prototype-disclaimer">Course titles, lesson lengths and progress below are examples. No lessons are available to play yet.</p></div><div class="academy-preview"><div class="academy-screen"><div class="academy-screen-top"><span>SPOTSCOUT ACADEMY</span><span>COURSE 01 / 07</span></div><div class="academy-screen-body"><span class="course-play">▶</span><div><p class="eyebrow">BEGINNER · 8 LESSONS</p><h2>SpotScout<br>Fundamentals</h2><p>45 minutes · 8 lessons</p></div></div><div class="academy-progress"><i></i></div></div></div></section>
+      <section class="academy-catalog"><div class="section-intro"><div><p class="eyebrow">Learning library</p><h2>Build skill, one match<br>at a time.</h2></div><p>Choose a guide, course or workshop that fits the next step in your work.</p></div><div class="academy-category-row"><button class="academy-filter active" type="button" data-filter="all">All learning</button><button class="academy-filter" type="button" data-filter="course">Courses</button><button class="academy-filter" type="button" data-filter="guide">Guides</button><button class="academy-filter" type="button" data-filter="workshop">Workshops</button></div><div class="academy-grid">
+        <a class="academy-card course-feature" data-kind="course" href="#/course"><div class="academy-card-image fundamentals-image"><span>01</span><i>SPOTSCOUT<br>FUNDAMENTALS</i></div><div class="academy-card-meta"><span>VIDEO COURSE</span><span>BEGINNER</span></div><h3>SpotScout Fundamentals</h3><p>Learn the workflow from project setup to your first report.</p><div class="academy-card-foot"><span>8 lessons · 45 minutes</span><span>Start course ↗</span></div></a>
+        <a class="academy-card" data-kind="course" href="#/course"><div class="academy-card-image timeline-image"><span>02</span><div class="tiny-timeline"><i></i><i></i><i></i><i></i><i></i></div></div><div class="academy-card-meta"><span>VIDEO COURSE</span><span>INTERMEDIATE</span></div><h3>Timeline & Tagging</h3><p>Make a fast, consistent review routine for your matches.</p><div class="academy-card-foot"><span>6 lessons · 32 minutes</span><span>Coming soon ↗</span></div></a>
+        <a class="academy-card" data-kind="guide" href="#/support"><div class="academy-card-image report-guide-image"><span>03</span><div class="mini-report-lines"><i></i><i></i><i></i><i></i><b>↗</b></div></div><div class="academy-card-meta"><span>FIELD GUIDE</span><span>ALL LEVELS</span></div><h3>Reports that coaches can use</h3><p>Turn your observations into a clear and useful summary.</p><div class="academy-card-foot"><span>5 minute read</span><span>Read guide ↗</span></div></a>
+        <a class="academy-card" data-kind="workshop" href="#/support"><div class="academy-card-image workshop-image"><span>04</span><div class="workshop-mark">LIVE<br>SESSION</div></div><div class="academy-card-meta"><span>MONTHLY WORKSHOP</span><span>LIVE</span></div><h3>Practical Match Review</h3><p>Join a guided session and practice with match footage.</p><div class="academy-card-foot"><span>Online · 60 minutes</span><span>View sessions ↗</span></div></a>
+      </div></section>
+      <section class="academy-path"><div class="academy-path-heading"><p class="eyebrow">A structured learning journey</p><h2>Learn in the order<br>you’ll use it.</h2></div><div class="academy-path-steps"><span>01 · Getting started</span><span>02 · Create a project</span><span>03 · Scout a match</span><span>04 · Review the timeline</span><span>05 · Create a report</span><span>06 · Explore Scout Lab</span></div></section>
+    </div>
+
+    <div class="view course-view" data-view="course">
+      <section class="course-page-top"><div class="breadcrumb"><a href="#/learn">Academy</a><span>/</span><span>SpotScout Fundamentals</span></div><div class="course-heading"><div><p class="eyebrow">Beginner · 8 lessons · 45 minutes</p><h1>SpotScout Fundamentals</h1><p>Get comfortable with the full SpotScout workflow, from project setup to sharing a clear report.</p></div><span class="course-completion">0% complete</span></div></section>
+      <section class="course-workspace"><aside class="lesson-sidebar"><div class="lesson-sidebar-title"><span>COURSE CONTENT</span><b>0 / 8</b></div><button class="lesson-row selected" data-lesson="0"><i>01</i><span>Installation</span><b>03:20</b></button><button class="lesson-row" data-lesson="1"><i>02</i><span>Sign in & licensing</span><b>04:10</b></button><button class="lesson-row" data-lesson="2"><i>03</i><span>Create a project</span><b>05:30</b></button><button class="lesson-row" data-lesson="3"><i>04</i><span>Import your video</span><b>06:15</b></button><button class="lesson-row" data-lesson="4"><i>05</i><span>Create useful tags</span><b>05:00</b></button><button class="lesson-row" data-lesson="5"><i>06</i><span>Scout a match</span><b>08:40</b></button><button class="lesson-row" data-lesson="6"><i>07</i><span>Review the timeline</span><b>06:00</b></button><button class="lesson-row" data-lesson="7"><i>08</i><span>Export a report</span><b>06:05</b></button><div class="lesson-progress"><span>COURSE PROGRESS</span><b>0%</b><div><i></i></div></div></aside>
+        <article class="lesson-content"><div class="lesson-video"><img src="/assets/arena-hero.png" alt=""><div class="lesson-video-shade"></div><button type="button" data-action="lesson-play" aria-label="Play lesson">▶</button><span class="lesson-video-caption">LESSON 01 <i>·</i> INSTALLATION</span><div class="lesson-video-controls"><span>00:00 / 03:20</span><i></i><span>⛶</span></div></div><div class="lesson-description"><p class="eyebrow">LESSON 01 / 08</p><h2>Install SpotScout for Windows.</h2><p>Set up SpotScout on your Windows PC, then sign in with the account associated with your license.</p><div class="lesson-outcomes"><b>In this lesson</b><span>• Check system requirements</span><span>• Install SpotScout for Windows</span><span>• Open SpotScout and sign in</span></div><div class="lesson-nav"><button type="button" class="button button-outline" disabled>← Previous lesson</button><button type="button" class="button button-light" data-action="next-lesson">Next lesson <span class="arrow">→</span></button></div></div></article>
+      </section>
+    </div>
+
+    <div class="view support-view" data-view="support">
+      <section class="page-hero compact-page-hero support-hero"><p class="eyebrow">SpotScout support</p><h1>Help for the work<br>you’re doing.</h1><p>Find an answer, follow a guide, or tell us what you need.</p><div class="support-search"><span>⌕</span><input type="search" placeholder="Search guides and common questions"><button type="button" data-action="prototype-notice">Search</button></div></section>
+      <section class="support-content"><div class="support-topic-grid"><a href="#/learn" class="support-topic"><span>01</span><b>Getting started</b><p>Install, sign in and set up your first project.</p><i>↗</i></a><a href="#/learn" class="support-topic"><span>02</span><b>Scouting workflow</b><p>Tag events, review a timeline and share results.</p><i>↗</i></a><a href="#/learn" class="support-topic"><span>03</span><b>Account & devices</b><p>Manage your subscription and registered devices.</p><i>↗</i></a><a href="#/learn" class="support-topic"><span>04</span><b>Scout Lab analysis</b><p>Learn about tracking, court mapping and heatmaps.</p><i>↗</i></a></div><div class="support-contact"><div><p class="eyebrow">Still need a hand?</p><h2>Talk to our team.</h2><p>Send a note about your setup, license or analysis workflow. We’ll point you to the right next step.</p><span class="button button-light button-disabled-text" aria-disabled="true">Support contact will be published at launch</span></div><div class="support-contact-side"><span>SUPPORT HOURS</span><b>Not published yet</b><span>Support hours and response times will be announced when the service opens.</span><hr><a href="#/service">Questions about scouting services? <i>↗</i></a></div></div></section>
+      <section class="faq-section support-faq"><div><p class="eyebrow">Common questions</p><h2>Quick answers.</h2></div><div class="faq-list"><details><summary>What does SpotScout run on?<span>＋</span></summary><p>SpotScout is a Windows desktop application. The website helps with product information, learning, account management and support.</p></details><details><summary>Can I download before signing in?<span>＋</span></summary><p>Downloads will require a SpotScout account and an active license. Account, payment and download checks are not connected yet, and no installer is currently available.</p></details><details><summary>How do team licenses work?<span>＋</span></summary><p>Team plans use seats with a separate SpotScout account for each user. Team members can work at the same time.</p></details><details><summary>Can I send a match for analysis?<span>＋</span></summary><p>The scouting service page shows the intended request flow. Video transfer and order placement are not connected in this prototype.</p></details></div></section>
+    </div>
+
+    <div class="view download-view" data-view="download">
+      <section class="download-page-hero"><div><p class="eyebrow">SpotScout for Windows</p><h1>Make room for<br>better analysis.</h1><p>Review match video, organize tagged events and prepare reports in one desktop workspace.</p><div class="hero-actions"><button class="button button-light" type="button" disabled aria-disabled="true">Downloads are not available yet</button><a class="button button-outline" href="#download-requirements">System requirements <span class="arrow">↓</span></a></div><p class="download-note">When released, the installer will require an account and an active license. Account checks and checkout are not connected yet.</p><a class="download-pricing-link" href="#/pricing">View plan examples ↗</a></div><div class="download-art"><div class="download-app-window"><div class="window-topbar"><div class="window-brand"><img src="/assets/sp-logo.png" alt=""><span>SpotScout <b>Lab</b></span></div><span class="window-title">Match Review · Game 04</span><span>•••</span></div><div class="download-app-body"><div class="download-app-rail"><span>◉</span><span>⌁</span><span>♙</span><span>▦</span><span>▤</span></div><div class="download-app-center"><div class="download-app-video"><img src="/assets/arena-hero.png" alt=""><span>GAME 04 · 00:42.18</span><i></i></div><div class="download-app-events"><span><i class="lime-bg"></i> Attack sequence</span><span><i class="blue-bg"></i> Player movement</span><span><i class="orange-bg"></i> Transition</span><span><i class="red-bg"></i> Lost point</span></div></div><div class="download-app-timeline"><b></b><i></i><i></i><i></i><i></i></div></div></div><span class="download-reflection"></span></div></section>
+      <section class="requirements-section" id="download-requirements"><div><p class="eyebrow">System requirements</p><h2>Built for Windows.</h2><p>Final hardware requirements will be confirmed with the release build.</p></div><div class="requirements-list"><div><span>Operating system</span><b>Windows 10 or Windows 11</b></div><div><span>Processor</span><b>64-bit compatible processor</b></div><div><span>Memory</span><b>Requirements to be confirmed</b></div><div><span>Graphics</span><b>Requirements to be confirmed</b></div><div><span>Internet</span><b>Needed for account sign-in and license activation</b></div></div></section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p class="prototype-disclaimer site-prototype-note">Product screens and sample account details are illustrative. Account access, checkout and downloads are not connected in this preview.</p>
+    <div class="footer-main"><div class="footer-brand-col"><a class="brand" href="#/home"><img src="/assets/sp-logo.png" alt=""><span>SpotScout <b>Lab</b></span></a><p>See the Game.<br>Understand More.</p><span class="footer-domain">spotscoutlab.com</span></div><div class="footer-col"><span>PRODUCT</span><a href="#/home#product" data-section="product">SpotScout</a><a href="#/home#scout-lab" data-section="scout-lab">Scout Lab</a><a href="#/pricing">Pricing</a><a href="#/download">Download</a></div><div class="footer-col"><span>LEARN</span><a href="#/learn">Academy</a><a href="#/course">Fundamentals</a><a href="#/learn">Tutorials</a><a href="#/learn">Training</a></div><div class="footer-col"><span>SERVICES</span><a href="#/service">Scouting service</a><a href="#/pricing">Team</a><a href="#/support">University</a></div><div class="footer-col"><span>COMPANY</span><a href="#/support">About</a><a href="#/support">Contact</a><a href="#/support">Support</a></div><div class="footer-col"><span>LEGAL</span><span>Privacy · not published</span><span>Terms · not published</span><span>License · not published</span></div></div>
+    <div class="footer-bottom"><span>© 2026 SpotScout Lab. All rights reserved.</span><span>Professional sports analysis software</span><div><a href="#/support" aria-label="Instagram">◎</a><a href="#/support" aria-label="YouTube">▷</a><a href="#/support" aria-label="LinkedIn">in</a></div></div>
+  </footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="/i18n.js" defer></script>
+  <script src="/app.js" defer></script>
+</body>
+</html>
